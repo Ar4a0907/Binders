@@ -327,8 +327,8 @@ header .header-main-wrap .header-main .search .icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-column-gap: 5px;
-          column-gap: 5px;
+  -webkit-column-gap: 8px;
+          column-gap: 8px;
 }
 
 header .header-main-wrap .header-main .search .icons img {
@@ -337,6 +337,8 @@ header .header-main-wrap .header-main .search .icons img {
 }
 
 header .header-main-wrap .header-main .search .icons .cross {
+  width: 14px;
+  height: auto;
   -webkit-transition: 0.1s ease-in-out;
   transition: 0.1s ease-in-out;
   -webkit-transform: translateX(30px);
@@ -344,12 +346,12 @@ header .header-main-wrap .header-main .search .icons .cross {
 }
 
 header .header-main-wrap .header-main .search.active {
-  width: 257px;
+  width: 230px;
 }
 
 header .header-main-wrap .header-main .search.active input {
   display: block;
-  width: auto;
+  width: 80%;
   padding: 0 4px;
 }
 
@@ -1110,8 +1112,8 @@ footer .footer-img .mob-map {
 }
 
 .detached-page aside .item.active .head svg {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -webkit-transform: translateX(5px) rotate(90deg);
+          transform: translateX(5px) rotate(90deg);
 }
 
 .detached-page aside .item.active .head svg path {
@@ -1593,7 +1595,7 @@ footer .footer-img .mob-map {
 }
 
 .vakances-flex .right {
-  padding: 40px;
+  padding: 40px 30px;
   text-align: center;
   color: #4D5460;
   border: 5px solid white;
@@ -1929,6 +1931,8 @@ footer .footer-img .mob-map {
   aspect-ratio: 330/248;
   -o-object-fit: cover;
      object-fit: cover;
+  width: 100%;
+  height: auto;
 }
 
 .aktualitate-flex .item h4 {
@@ -2072,12 +2076,17 @@ footer .footer-img .mob-map {
 .page-links .buttons a {
   display: block;
   background-color: #B10835;
-  padding: 15px;
+  padding: 13px;
+}
+
+.page-links .buttons a img {
+  width: 24px;
+  height: auto;
 }
 
 .page-links .buttons .right {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  -webkit-transform: translateY(2px) rotate(180deg);
+          transform: translateY(2px) rotate(180deg);
 }
 
 .page-links .pages {
@@ -2108,6 +2117,7 @@ footer .footer-img .mob-map {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  line-height: 1;
 }
 
 .rix-iframe {

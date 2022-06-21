@@ -297,23 +297,26 @@ header {
                 .icons {
                     flex-shrink: 0;
                     display: flex;
-                    column-gap: 5px;
+                    column-gap: 8px;
                     img {
                         width: 16px;
                         height: 16px;
                     }
 
                     .cross {
+                        
+                        width: 14px;
+                        height: auto;
                         transition: 0.1s ease-in-out;
                         transform: translateX(30px);
                     }
                 }
 
                 &.active {
-                    width: 257px;
+                    width: 230px;
                     input {
                         display: block;
-                        width: auto;
+                        width: 80%;
                         padding: 0 4px;
                     }
                     .cross {
@@ -963,7 +966,7 @@ footer .footer-img .mob-map {
                     color: $red;
 
                     svg {
-                        transform: rotate(90deg);
+                        transform:translateX(5px) rotate(90deg) ;
 
                         path {
                             stroke: $gray1;
@@ -1379,7 +1382,7 @@ footer .footer-img .mob-map {
     }
 
     .right {
-        padding: 40px;
+        padding: 40px 30px;
         text-align: center;
         color: $gray1;
         border: 5px solid white;
@@ -1664,6 +1667,8 @@ footer .footer-img .mob-map {
                 transition: 0.1s ease-in-out;
                 aspect-ratio: 330/248;
                 object-fit: cover;
+                width: 100%;
+                height: auto;
             }
         }
 
@@ -1786,11 +1791,15 @@ footer .footer-img .mob-map {
         a {
             display: block;
             background-color: $red;
-            padding: 15px;
+            padding: 13px;
+            img {
+                width: 24px;
+                height: auto;
+            }
         }
 
         .right {
-            transform: rotate(180deg);
+            transform:translateY(2px) rotate(180deg) ;
         }
     }
 
@@ -1810,6 +1819,7 @@ footer .footer-img .mob-map {
             display: flex;
             align-items: center;
             justify-content: center;
+            line-height: 1;
         }
     }
 }
