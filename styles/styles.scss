@@ -545,10 +545,10 @@ footer {
 .link-btn {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1;
     color: #FFFFFF;
     display: inline-block;
-    padding: 9px 12px 11px 22px;
+    padding: 9px 12px 9px 22px;
     border: $red solid 2px;
     border-right-color: transparent;
     position: relative;
@@ -559,13 +559,13 @@ footer {
         transition: 0.1s ease-in-out;
         content: "";
         aspect-ratio: 1/1;
-        height: calc(70% + 3.5px);
+        height: calc(70% + 3.2px);
         width: auto;
-        border-top: 2px solid $red;
-        border-right: 2px solid $red;
+        border-top: 2.5px solid $red;
+        border-right: 2.5px solid $red;
         position: absolute;
-        left: calc(100% - 13.5px);
-        top: 3.8px;
+        left: calc(100% - 11.5px);
+        top: 3px;
         transform: rotate(45deg);
         z-index: -1;
     }
@@ -604,7 +604,7 @@ footer {
 
         &::before {
             left: calc(100% - 15.5px);
-            top: 4.5px;
+            top: 5px;
             height: calc(70% + 3px);
         }
     }

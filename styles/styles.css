@@ -593,10 +593,10 @@ footer .copyright {
 .link-btn {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1;
   color: #FFFFFF;
   display: inline-block;
-  padding: 9px 12px 11px 22px;
+  padding: 9px 12px 9px 22px;
   border: #B10835 solid 2px;
   border-right-color: transparent;
   position: relative;
@@ -610,13 +610,13 @@ footer .copyright {
   transition: 0.1s ease-in-out;
   content: "";
   aspect-ratio: 1/1;
-  height: calc(70% + 3.5px);
+  height: calc(70% + 3.2px);
   width: auto;
-  border-top: 2px solid #B10835;
-  border-right: 2px solid #B10835;
+  border-top: 2.5px solid #B10835;
+  border-right: 2.5px solid #B10835;
   position: absolute;
-  left: calc(100% - 13.5px);
-  top: 3.8px;
+  left: calc(100% - 11.5px);
+  top: 3px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   z-index: -1;
@@ -662,7 +662,7 @@ footer .copyright {
 
 .link-btn.big::before {
   left: calc(100% - 15.5px);
-  top: 4.5px;
+  top: 5px;
   height: calc(70% + 3px);
 }
 
